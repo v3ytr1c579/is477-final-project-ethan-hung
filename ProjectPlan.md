@@ -27,7 +27,7 @@ By combining enforcement data with crash-level and person-level records, this pr
 
 ## Research or Business Question: 
 
-How do crash conditions (weather, road conditions, speed limits, etc.) relate to injury outcomes for people involved in crashes in Chicago?
+How do crash conditions relate to injury severity in Chicago traffic crashes?
 
 We will combine the Traffic Crashes – Crashes dataset and the Traffic Crashes – People dataset to analyze how crash-level conditions such as weather, road surface, lighting, and posted speed limit relate to person-level injury outcomes including injury classification, airbag deployment, and ejection status. Person-level records will be aggregated to the crash level using the shared CRASH_RECORD_ID, and injury severity distributions will be compared across crash conditions.
 
