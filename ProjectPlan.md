@@ -1,5 +1,5 @@
 # Final Project Plan
-#### Team Outliers: Chenxi Zhang, Ethan Hung, Mustafa El Zayyat
+#### Team Individual: Ethan Hung
 
 ---
 
@@ -27,7 +27,7 @@ By combining enforcement data with crash-level and person-level records, this pr
 
 ## Research or Business Question: 
 
-Is there a relationship between speed camera violations, traffic crashes, and crash injuries in Chicago? What factors are most strongly associated with traffic crash occurrences in Chicago?
+How do crash conditions (weather, road conditions, speed limits, etc.) relate to injury outcomes for people involved in crashes in Chicago?
 
 We will combine the Traffic Crashes – Crashes dataset and the Traffic Crashes – People dataset to analyze how crash-level conditions such as weather, road surface, lighting, and posted speed limit relate to person-level injury outcomes including injury classification, airbag deployment, and ejection status. Person-level records will be aggregated to the crash level using the shared CRASH_RECORD_ID, and injury severity distributions will be compared across crash conditions.
 
