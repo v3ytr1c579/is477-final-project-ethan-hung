@@ -1,0 +1,42 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "name": "How a Person's Role in a Crash Affects Injury Severity in Chicago Traffic Accidents",
+  "description": "Analysis of injury severity across driver, passenger, pedestrian, and bicyclist roles using Chicago traffic crash data from the City of Chicago Data Portal.",
+  "url": "https://github.com/v3ytr1c579/is477-final-project-ethan-hung",
+  "creator": {
+    "@type": "Person",
+    "name": "Ethan Hung"
+  },
+  "datePublished": "2026-05-03",
+  "license": "https://opendatacommons.org/licenses/pddl/1-0/",
+  "keywords": [
+    "traffic safety",
+    "injury severity",
+    "Chicago",
+    "traffic crashes",
+    "pedestrian safety"
+  ],
+  "isBasedOn": [
+    {
+      "@type": "Dataset",
+      "name": "Traffic Crashes – Crashes",
+      "url": "https://data.cityofchicago.org/Transportation/Traffic-Crashes-Crashes/85ca-t3if"
+    },
+    {
+      "@type": "Dataset",
+      "name": "Traffic Crashes – People",
+      "url": "https://data.cityofchicago.org/Transportation/Traffic-Crashes-People/u6pd-qa9d"
+    }
+  ],
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://uofi.box.com/s/1pg8sd0nxtfkzz02d67o2e0g5fj29fsr"
+  },
+  "variableMeasured": [
+    "PERSON_TYPE",
+    "INJURY_CLASSIFICATION",
+    "CRASH_RECORD_ID"
+  ]
+}
